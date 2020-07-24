@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz App</title>
+
+  <!-- style.css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    <h1>Quiz App</h1>
-    <form id="form">
-        <input type="text" id="name" placeholder="Enter Your Name">
-        <input type="submit" value="next" />
-    </formid="">
-    <div id="root"></div>
-    <script src="app.js"></script>
+  <div class="wrapper">
+    <div class="quiz">
+      <div class="quiz_header">
+        <div class="quiz_user">
+          <h4>Welcome! Dear User</h4>
+        </div>
+      </div>
+      <div class="quiz_body">
+        <div id="questions">
+        </div>
+
+        <button class="btn-next" onclick="next()">Next Question</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- site.js -->
+  <script src="assets/js/site.js"></script>
+
+  <!-- user info -->
+  <script src="assets/js/userInfo.js"></script>
 </body>
+
 </html>
