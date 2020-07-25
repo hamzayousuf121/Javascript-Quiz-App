@@ -187,4 +187,16 @@ body {
 	text-align: center;
 	color: White;
 	text-shadow: 5px 3px 5px purple;
+} 
+
+@media screen and (max-width: 600px) {
+	.wrapper {
+	width: 95%;
+	height: auto;
+	overflow: scroll;
+	text-align: justify;
+  }
+  .quiz{
+	height: auto;
+  }
 }
